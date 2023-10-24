@@ -86,8 +86,9 @@ body {
 }
 
 .off__icon div {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
 
   background-color: #57667d;
   border-radius: 50%;
@@ -959,6 +960,9 @@ body {
 }
 .offcanvasRight {
   width: 70% !important;
+}
+.offcanvas-end {
+  width: 70%;
 }
 
 @media only screen and (max-width: 992px) {
