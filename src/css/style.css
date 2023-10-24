@@ -932,6 +932,10 @@ body {
   color: #102039;
   text-align: center;
 }
+.scroll__img {
+  overflow: hidden;
+  overflow-x: auto;
+}
 
 .expert__container p {
   margin: 0 auto;
@@ -950,10 +954,11 @@ body {
 }
 
 .expert__icon {
-  font-size: 24px;
+  font-size: 26px;
   color: white;
+  width: 58px;
   background-color: #ea1826;
-  height: 200px;
+  height: 207px;
 }
 .burger {
   font-size: 20px;
@@ -971,7 +976,7 @@ body {
     width: 100%;
   }
   .scroll__img {
-    overflow-x: scroll;
+    overflow: hidden;
   }
 
   .feature__text {
