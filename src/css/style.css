@@ -222,6 +222,7 @@ body {
 
 .feature__icon::after {
   content: "";
+  z-index: 1;
   width: 100%;
   position: absolute;
   top: -20px;
@@ -233,6 +234,7 @@ body {
 
 .feature__icon::before {
   content: "";
+  z-index: 1;
   clip-path: polygon(0 0, 0% 100%, 100% 100%);
   position: absolute;
   top: -20px;
