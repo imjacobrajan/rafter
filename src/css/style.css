@@ -558,7 +558,6 @@ body {
 }
 
 .quality__images {
-  overflow-x: scroll;
 }
 
 .latest {
@@ -968,6 +967,9 @@ body {
 @media only screen and (max-width: 992px) {
   .solution__img {
     width: 100%;
+  }
+  .scroll__img {
+    overflow-x: scroll;
   }
 
   .feature__text {
